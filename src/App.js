@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { Header } from './Views/Header/Header';
+import { FloatingIcons } from './Views/FloatingIcons/FloatingIcons';
+import { Laptop } from './Views/Laptop/Laptop';
+import { Volume } from './Views/Volume/Volume';
+import { Footer } from './Views/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    {/* <div>
+      <NavbarCom />
+    </div> */}
+    <Header />
+    <FloatingIcons />
+    <div style={{ overflow: 'hidden', position: 'relative', zIndex: 999 }}>
+      <Laptop />
+
     </div>
+    <Volume />
+    <Footer />
+  </div>
   );
 }
 
