@@ -22,6 +22,10 @@ const Header = () => {
                             <div className="navbar-nav">
                               <li className="navLink nav-link">Works With</li>
                               <li className="navLink nav-link">Noise Level</li>
+                              <li className="navLink nav-link">Noise Level</li>
+                              <li className="navLink nav-link">Noise Level</li>
+                              <li className="navLink nav-link">Noise Level</li>
+                              <li className="navLink nav-link">Noise Level</li>
                               <li className="navLink nav-link">Switch Device</li>
                               <li className="navLink nav-link">Switch Device</li>
                               <li className="navLink nav-link">Switch Device</li>
