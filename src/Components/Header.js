@@ -24,6 +24,10 @@ const Header = () => {
                               <li className="navLink nav-link">Noise Level</li>
                               <li className="navLink nav-link">Switch Device</li>
                               <li className="navLink nav-link">Feedback</li>
+                              <li className="navLink nav-link">Feedback</li>
+                              <li className="navLink nav-link">Feedback</li>
+                              <li className="navLink nav-link">Feedback</li>
+                              <li className="navLink nav-link">Feedback</li>
                             </div>
                         </div>
                         <div className="justify-content-end navbar-collapse collapse" id="responsive-navbar-nav">
