@@ -22,26 +22,13 @@ const Header = () => {
                             <div className="navbar-nav">
                               <li className="navLink nav-link">Works With</li>
                               <li className="navLink nav-link">Noise Level</li>
-                              <li className="navLink nav-link">Noise Level</li>
-                              <li className="navLink nav-link">Noise Level</li>
-                              <li className="navLink nav-link">Noise Level</li>
-                              <li className="navLink nav-link">Noise Level</li>
                               <li className="navLink nav-link">Switch Device</li>
-                              <li className="navLink nav-link">Switch Device</li>
-                              <li className="navLink nav-link">Switch Device</li>
-                              <li className="navLink nav-link">Switch Device</li>
-                              <li className="navLink nav-link">Feedback</li>
-                              <li className="navLink nav-link">Feedback</li>
-                              <li className="navLink nav-link">Feedback</li>
-                              <li className="navLink nav-link">Feedback</li>
                               <li className="navLink nav-link">Feedback</li>
                             </div>
                         </div>
                         <div className="justify-content-end navbar-collapse collapse" id="responsive-navbar-nav">
                             <div className="navbar-nav">
                                <li className="navLink nav-link">
-                                 <button type="button" className="downloadBtn btn btn-primary">Download</button>
-                                 <button type="button" className="downloadBtn btn btn-primary">Download</button>
                                  <button type="button" className="downloadBtn btn btn-primary">Download</button>
                                 </li>
                             </div>
