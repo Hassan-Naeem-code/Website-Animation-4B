@@ -30,6 +30,8 @@ const Header = () => {
                             <div className="navbar-nav">
                                <li className="navLink nav-link">
                                  <button type="button" className="downloadBtn btn btn-primary">Download</button>
+                                 <button type="button" className="downloadBtn btn btn-primary">Download</button>
+                                 <button type="button" className="downloadBtn btn btn-primary">Download</button>
                                 </li>
                             </div>
                         </div>
