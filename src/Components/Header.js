@@ -28,7 +28,7 @@ const Header = () => {
         </div>
       </div>
       <div className="videoWrapper">
-        <video src={Video} poster={VideoImg} autoPlay loop data-video="0" className="video"></video>
+        <video src='http://website-animation-1999.surge.sh/static/media/headerVideo.19c8a940.mp4' poster={VideoImg} autoPlay loop data-video="0" className="video"></video>
         <img src={VideoImg} className="videoImg" alt="videoImg" />
         <div>
           <img src="https://mutify.app/images/wave-1-ddc3a23018.svg" className="videoBgImg" alt="videoBgImg" />
