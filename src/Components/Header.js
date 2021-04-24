@@ -1,7 +1,6 @@
 import React from 'react'
 import { Button } from 'react-bootstrap';
 import NavBar from './NavBar';
-import VideoImg from '../assets/video.jpg';
 import '../Css/header.css';
 
 const Header = () => {
