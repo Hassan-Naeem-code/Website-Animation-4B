@@ -1,6 +1,5 @@
 import React from 'react';
 import useWebAnimations from "@wellyshen/use-web-animations";
-import FaceTimePopup from '../assets/FaceTimePopup.jpg';
 import '../Css/floatingIcon.css';
 
 
@@ -33,7 +32,7 @@ const FloatingIcons = () => {
         <p className="floatingIconSubTitleText">
           Even during calls
         </p>
-        <img src={FaceTimePopup} className="floatingIconImage" alt="floatingIconImage" />
+        <img src={'https://mutify.app/images/FaceTimePopup-8b68d7ca18.jpg'} className="floatingIconImage" alt="floatingIconImage" />
         <div className="floatingIconsWrapper">
           <div className="floatingIcon appearIcon" ref={apperRef}>
             <img src="https://mutify.app/images/Appear-1ad98c17f8.png" alt="Appear" />

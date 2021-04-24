@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../Components/NavBar';
-import Logo from '../assets/logo.png';
 import '../Css/footer.css';
 
 const Footer = () => {
@@ -16,7 +15,7 @@ const Footer = () => {
           <Navbar />
         </div>
         <div className="footerLogoWrapper">
-          <img src={Logo} width={60} height={60} alt="logo" />
+          <img src={'https://mutify.app/images/mutify-logo-6ab64e5ad7.png'} width={60} height={60} alt="logo" />
           <span className="brandName"> MUTIFY</span>
         </div>
         <div className="footerCopyrightText">Made by <a  rel="noopener noreferrer" href="https://github.com/Hassan-Naeem-code" target="_blank">Muhammad Hassan Naeem</a>– Web & Mobile Developer. © 2021 All right reserved</div>
