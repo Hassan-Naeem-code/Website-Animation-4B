@@ -1,11 +1,10 @@
 import React from 'react';
 import useWebAnimations from "@wellyshen/use-web-animations";
-
-import '../Css/index.css';
-
 import FaceTimePopup from '../assets/FaceTimePopup.jpg';
+import '../Css/floatingIcon.css';
 
-export default FloatingIcons = () => {
+
+const FloatingIcons = () => {
   const keyframes = ([
     { transform: "translateY(0)" },
     { transform: "translateY(8px)" },
@@ -99,3 +98,5 @@ export default FloatingIcons = () => {
     </div>
   );
 }
+
+export default FloatingIcons;

@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from './Components/Header';
 import FloatingIcons from './Components/FloatingIcons';
@@ -8,7 +9,7 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
-    <React.Fragment>
+    <div>
     <Header />
     <FloatingIcons />
     <div style={{ overflow: 'hidden', position: 'relative', zIndex: 999 }}>
@@ -17,7 +18,7 @@ function App() {
     </div>
     <Volume />
     <Footer />
-  </React.Fragment>
+  </div>
   );
 }
 

@@ -2,9 +2,9 @@ import React from 'react';
 import useWebAnimations, { bounceIn } from "@wellyshen/use-web-animations";
 import { Button } from 'react-bootstrap';
 
-import '../Css/index.css';
+import '../Css/laptop.css';
 
-export default Laptop = () => {
+const Laptop = () => {
   const { ref } = useWebAnimations({
     ...bounceIn, timing: {
       delay: 1500,
@@ -31,3 +31,5 @@ export default Laptop = () => {
     </div>
   )
 }
+
+export default Laptop;

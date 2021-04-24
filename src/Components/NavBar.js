@@ -1,11 +1,10 @@
 import React from 'react'
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
-
-import '../Css/index.css';
-
 import Logo from '../assets/logo.png';
+import '../Css/navbar.css';
 
-export default NavbarCom = (props) => {
+
+const NavbarCom = (props) => {
   return (
     <Container className="navbarContainer">
       <nav className="pt-2">
@@ -43,3 +42,4 @@ export default NavbarCom = (props) => {
     </Container>
   )
 }
+export default NavbarCom;

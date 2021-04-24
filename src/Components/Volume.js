@@ -2,9 +2,9 @@ import React from 'react';
 import { BallBeat } from 'react-pure-loaders';
 import { Button } from 'react-bootstrap';
 
-import '../Css/index.css';
+import '../Css/volume.css';
 
-export default Volume = () => {
+const Volume = () => {
   return (
     <div className="volumeMainWrapper">
       <div className="containerWrapper">
@@ -43,3 +43,4 @@ export default Volume = () => {
     </div>
   );
 }
+export default Volume;

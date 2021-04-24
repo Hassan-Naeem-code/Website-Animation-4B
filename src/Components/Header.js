@@ -1,16 +1,14 @@
 import React from 'react'
 import { Button } from 'react-bootstrap';
 import NavBar from './NavBar';
-
-import '../Css/index.css';
-
 import Video from '../assets/headerVideo.mp4';
 import VideoImg from '../assets/video.jpg';
+import '../Css/header.css';
 
-export default Header = () => {
+const Header = () => {
   return (
     <div className="headerWrapper">
-      <div className="bgColor">
+      <div className="backgroundColor">
         <NavBar />
         <div className="headerTitleWrapper">
           <div>
@@ -39,3 +37,4 @@ export default Header = () => {
     </div>
   )
 }
+export default Header;
