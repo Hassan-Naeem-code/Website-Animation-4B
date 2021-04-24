@@ -1,47 +1,41 @@
-import React from 'react';
+import React from 'react'
+import { Button } from 'react-bootstrap';
+import NavBar from './NavBar';
+
 import '../Css/index.css';
-import Logo from '../Assets/logo.png';
 
-const Header = () => {
-    return (
-        <React.Fragment>
-            <div className='header'>
-              <div className="header-layout">
-                 <div className="container navbar">
-                     <nav className="pt-2">
-                         <nav className="navbar navbar-expand-lg navbar-light"></nav>
-                         <nav class="navbar navbar-expand-lg navbar-light">
-                           <a href="/" class="navbar-brand">
-                             <img src={Logo} width="60" height="60" alt="logo" />
-                               <span class="brandName"> MUTIFY</span>
-                            </a>
-                            <button type="button" aria-label="Toggle navigation" className="navbar-toggler collapsed">
-                              <span className="navbar-toggler-icon"></span>
-                            </button>
-                        <div className="justify-content-center navbarLink navbar-collapse collapse" id="responsive-navbar-nav">
-                            <div className="navbar-nav">
-                              <li className="navLink nav-link">Works With</li>
-                              <li className="navLink nav-link">Noise Level</li>
-                              <li className="navLink nav-link">Switch Device</li>
-                              <li className="navLink nav-link">Feedback</li>
-                            </div>
-                        </div>
-                        <div className="justify-content-end navbar-collapse collapse" id="responsive-navbar-nav">
-                            <div className="navbar-nav">
-                               <li className="navLink nav-link">
-                                 <button type="button" className="downloadBtn btn btn-primary">Download</button>
-                                </li>
-                            </div>
-                        </div>
-                     </nav>
-                     </nav>
-                 </div>
-                 <div className="area-after-navbar"></div>
-              </div>
-            </div>
-        </React.Fragment>
-    )
+import Video from '../assets/headerVideo.mp4';
+import VideoImg from '../assets/video.jpg';
+
+export default Header = () => {
+  return (
+    <div className="headerWrapper">
+      <div className="bgColor">
+        <NavBar />
+        <div className="headerTitleWrapper">
+          <div>
+            <span className="titleText">
+              Mutify for Mac
+          </span>
+          </div>
+          <div className="mt-3">
+            <span className="subTitleText">
+              Use a shortcut or the touch bar on any Mac device <br /> to quickly mute your microphone
+            </span>
+          </div>
+          <div className="btnWrapper">
+            <Button className="headerDownloadBtn">Download</Button>
+            <Button className="headerBuyBtn">Buy: $4.99</Button>
+          </div>
+        </div>
+      </div>
+      <div className="videoWrapper">
+        <video src={Video} poster={VideoImg} autoPlay loop data-video="0" className="video"></video>
+        <img src={VideoImg} className="videoImg" alt="videoImg" />
+        <div>
+          <img src="https://mutify.app/images/wave-1-ddc3a23018.svg" className="videoBgImg" alt="videoBgImg" />
+        </div>
+      </div>
+    </div>
+  )
 }
-
-
-export default Header;
