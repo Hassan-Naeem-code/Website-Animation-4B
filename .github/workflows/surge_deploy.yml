@@ -22,29 +22,23 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Installs Node JS
       - name: Install NodeJS
         uses: actions/setup-node@v2-beta
         with:
           node-versio: 12 
     
-      # Installs React dependencies
       - name: Install pakages
         run: npm install
 
-      # Builds the App
       - name: Build React App
         run: |
           npm install # Install Dependencies
           CI=false npm run build # CI=false to ignore warnings
-          
-      # Installs Surge
+      
       - name: Install surge
         run: sudo npm install -g surge
 
-      # Deploys to Surge
       - name: Deploy to surge
-        run: surge ./build animated-website-app-4B-project-bootcamp.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build animated-website-4b-project-bootcamp.surge.sh --token ${{ secrets.SURGE_TOKEN }}
